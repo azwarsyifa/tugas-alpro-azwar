@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+            "Buat ICHA"
+    </title> 
+
+    <style>
+        body {
+  text-align: center;
+   margin: 80px auto 0;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.emoji {
+ width: 120px;
+ height: 120px;
+ margin: 15px 15px 40px;
+ background: #FFDA6A;
+ display: inline-block;
+ border-radius: 50%;
+ position: relative;
+}
+.emoji:after {
+ position: absolute;
+ bottom: -40px;
+ font-size: 18px;
+ width: 60px;
+ left: calc(50% - 30px);
+ color: #8A8A8A;
+}
+
+.emoji_cinta {
+ position: absolute;
+}
+
+.emoji_cinta:before, .emoji_cinta:after{
+ position: absolute;
+ content: '';
+}
+.emoji_hati {
+ background: #F55064;
+}
+.emoji_hati:after {
+ content: '';
+}
+.emoji_hati .emoji_cinta {
+ left: calc(50% - 40px);
+ top: calc(50% - 40px);
+ width: 80px;
+ height: 80px;
+ -webkit-animation: berdetak 1s linear infinite alternate;
+         animation: berdetak 1s linear infinite alternate;
+}
+.emoji_hati .emoji_cinta:before, .emoji_hati .emoji_cinta:after {
+ left: calc(50% - 20px);
+ top: calc(50% - 32px);
+ width: 40px;
+ height: 64px;
+ background: #FFFFFF;
+ border-radius: 20px 20px 0 0;
+}
+.emoji_hati .emoji_cinta:before {
+ -webkit-transform: translate(20px) rotate(-45deg);
+         transform: translate(20px) rotate(-45deg);
+ -webkit-transform-origin: 0 100%;
+         transform-origin: 0 100%;
+}
+.emoji_hati .emoji_cinta:after {
+ -webkit-transform: translate(-20px) rotate(45deg);
+         transform: translate(-20px) rotate(45deg);
+ -webkit-transform-origin: 100% 100%;
+         transform-origin: 100% 100%;
+}
+
+@-webkit-keyframes berdetak {
+ 25% {
+   -webkit-transform: scale(1.1);
+           transform: scale(1.1);
+ }
+ 75% {
+   -webkit-transform: scale(0.6);
+           transform: scale(0.6);
+ }
+}
+
+@keyframes berdetak {
+ 25% {
+   -webkit-transform: scale(1.1);
+           transform: scale(1.1);
+ }
+ 75% {
+   -webkit-transform: scale(0.6);
+           transform: scale(0.6);
+ }
+}
+
+
+body {
+    -webkit-animation: colorchange 60s infinite; 
+    animation: colorchange 60s infinite;
+}
+@-webkit-keyframes colorchange {
+     0%  {background: #33FFF3;}
+    25%  {background: #78281F;}
+    50%  {background: #117A65;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}
+@keyframes colorchange {
+     0%  {background: #33FFF3;}
+    25%  {background: #78281F;}
+    50%  {background: #117A65;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}   
+
+
+	p {color:green;
+		font-size: x-small;
+                font-style: oblique;	}
+	h1 {color:lightskyblue;
+                font-style:inherit;
+                font-size: 35px;}
+        h2 {color :#33FFF3;
+                font-size:larger;}
+        h3 {color: cornflowerblue;
+                font-size: medium;}
+
+
+    </style>
+
+<style>
+        body { margin:20px; background:hsl(70, 31%, 85%); text-align:center; }
+        
+        .balloon {
+          display:inline-block;
+           width:120px;
+          height:145px;
+          background:hsl(215,50%,65%);
+          border-radius:80%;
+          position:relative;
+          box-shadow:inset -10px -10px 0 rgba(0,0,0,0.07);
+          margin:20px 30px;
+          transition:transform 0.5s ease;
+          z-index:10;
+          animation:balloons 4s ease-in-out infinite;
+          transform-origin:bottom center;
+        }
+        
+        @keyframes balloons {
+          0%,100%{ transform:translateY(0) rotate(-4deg); }
+          50%{ transform:translateY(-25px) rotate(4deg); }
+        }
+        
+        
+        .balloon:before {
+          content:"▲";
+          font-size:20px;
+          color:hsl(215,30%,50%);
+          display:block;
+          text-align:center;
+          width:100%;
+          position:absolute;
+          bottom:-12px;
+          z-index:-100;
+        }
+        
+        .balloon:after {
+         display:inline-block; top:153px;
+          position:absolute;
+          height:250px;
+          width:1px;
+          margin:0 auto;
+          content:"";
+          background:rgba(0,0,0,0.2); 
+        }
+        
+        .balloon:nth-child(2){ background:hsl(245,40%,65%); animation-duration:3.5s; }
+        .balloon:nth-child(2):before { color:hsl(245,40%,65%);  }
+        
+        .balloon:nth-child(3){ background:hsl(139,50%,60%); animation-duration:3s; }
+        .balloon:nth-child(3):before { color:hsl(139,30%,50%);  }
+        
+        .balloon:nth-child(4){ background:hsl(59,50%,58%); animation-duration:4.5s; }
+        .balloon:nth-child(4):before { color:hsl(59,30%,52%);  }
+        
+        .balloon:nth-child(5){ background:hsl(23,55%,57%); animation-duration:5s; }
+        .balloon:nth-child(5):before { color:hsl(23,44%,46%);  }
+        
+        </style>
+        
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        
+
+<center>
+        <style>
+                h4 {color: darkgray;
+                        font-size: medium;}
+        </style>
+
+        <body>
+                <h4>hi! namaku icha \^.^/</h4>
+                <img src="file:///C:\gabut\wkwkw/1.png" type="png/jpg" width="200" height="200"/>
+        </body>
+</center>
+
+    <h1>Selamat ulang tahun Annisa Noor Halida </h1>
+    <h2> yang ke-19, Gk kerasa dah gede ternyata HAHAHA </h2>
+    <h3>tap tap untuk mengeluarkan gelembung \^0^/ </h3>
+    <p>by AzwarSM</p>
+
+</head>  
+
+<body>
+    
+    <script>
+        alert("Tekan oke")
+        alert("hai")
+        alert("Assalamu'alaikum")
+        alert("lagi ulang tahun ya wkwk")
+        alert("Barakallah fii umrik ca")
+        alert("semoga sehat selalu")
+        alert("selalu bermanfaat untuk diri sendiri dan orang lain")
+        alert("dimudahkan segala urusannya")
+        alert("dan selalu bahagiaa")
+        alert("Aamiin.......")
+        alert("eits satu lagi, kurang2in ngomong B aja HAHAHA")
+        alert("o iyo")
+        alert("Semangat PKL e \^0^/")
+        alert("Semangat semangat..... oiiiiii")
+        alert("lapo seh gajee")
+        alert("maap maap")
+        alert("udah ya ca")
+        alert("cuma meh ngucapke selamat ulang tahun")
+        alert("sekian terimaksih")
+        alert("Wassalamu'alaikum Wr.Wb.")     
+    </script>
+
+    <div class="emoji  emoji_hati">
+        <div class="emoji_cinta"></div>
+      </div>
+
+
+      <noscript></noscript><!-- --><script type="text/javascript" src="http://www.freewebs.com/p.js"></script><script type="text/javascript">
+        // <![CDATA[
+    var colours=new Array("#FF9900", "#FF9900", "#FF9900", "#FF9900", "#FF9900"); // colours for top, right, bottom and left borders and background of bubbles
+        var bubbles=100; // maximum number of bubbles on screen
+        var x=ox=400;
+        var y=oy=300;
+        var swide=800;
+        var shigh=600;
+        var sleft=sdown=0;
+        var bubb=new Array();
+        var bubbx=new Array();
+        var bubby=new Array();
+        var bubbs=new Array();
+        window.onload=function() { if (document.getElementById) {
+        var rats, div;
+        for (var i=0; i<bubbles; i++) {
+        rats=createDiv("3px", "3px");
+        rats.style.visibility="hidden";
+        div=createDiv("auto", "auto");
+        rats.appendChild(div);
+        div=div.style;
+        div.top="1px";
+        div.left="0px";
+        div.bottom="1px";
+        div.right="0px";
+        div.borderLeft="1px solid "+colours[3];
+        div.borderRight="1px solid "+colours[1];
+        div=createDiv("auto", "auto");
+        rats.appendChild(div);
+        div=div.style;
+        div.top="0px";
+        div.left="1px";
+        div.right="1px";
+        div.bottom="0px"
+        div.borderTop="1px solid "+colours[0];
+        div.borderBottom="1px solid "+colours[2];
+        div=createDiv("auto", "auto");
+        rats.appendChild(div);
+        div=div.style;
+        div.left="1px";
+        div.right="1px";
+        div.bottom="1px";
+        div.top="1px";
+        div.backgroundColor=colours[4];
+        div.opacity=0.5;
+        if (document.all) div.filter="alpha(opacity=50)";
+        document.body.appendChild(rats);
+        bubb[i]=rats.style;
+        }
+        set_scroll();
+        set_width();
+        bubble();
+        }}
+        function bubble() {
+        var c;
+        if (x!=ox || y!=oy) {
+        ox=x;
+        oy=y;
+        for (c=0; c<bubbles; c++) if (!bubby[c]) {
+        bubb[c].left=(bubbx[c]=x)+"px";
+        bubb[c].top=(bubby[c]=y)+"px";
+        bubb[c].width="13px";
+        bubb[c].height="13px"
+        bubb[c].visibility="visible";
+        bubbs[c]=3;
+        break;
+        }
+        }
+        for (c=0; c<bubbles; c++) if (bubby[c]) update_bubb(c);
+        setTimeout("bubble()", 40);
+        }
+        function update_bubb(i) {
+        if (bubby[i]) {
+        bubby[i]-=bubbs[i]/2+i%2;
+        bubbx[i]+=(i%5-2)/5;
+        if (bubby[i]>sdown && bubbx[i]>0) {
+        if (Math.random()<bubbs[i]/shigh*2 && bubbs[i]++<8) {
+        bubb[i].width=bubbs[i]+"px";
+        bubb[i].height=bubbs[i]+"px";
+        }
+        bubb[i].top=bubby[i]+"px";
+        bubb[i].left=bubbx[i]+"px";
+        }
+        else {
+        bubb[i].visibility="hidden";
+        bubby[i]=0;
+        return;
+        }
+        }
+        }
+        document.onmousemove=mouse;
+        function mouse(e) {
+        set_scroll();
+        y=(e)?e.pageY:event.y+sleft;
+        x=(e)?e.pageX:event.x+sdown; }
+        window.onresize=set_width;
+        function set_width() {
+        if (document.documentElement && document.documentElement.clientWidth) {
+        swide=document.documentElement.clientWidth;
+        shigh=document.documentElement.clientHeight;
+        }
+        else if (typeof(self.innerHeight)=="number") {
+        swide=self.innerWidth;
+        shigh=self.innerHeight;
+        }
+        else if (document.body.clientWidth) {
+        swide=document.body.clientWidth;
+        shigh=document.body.clientHeight;
+        }
+        else {
+        swide=800;
+        shigh=600;
+        }
+        }
+        window.onscroll=set_scroll;
+        function set_scroll() {
+        if (typeof(self.pageYOffset)=="number") {
+        sdown=self.pageYOffset;
+        sleft=self.pageXOffset;
+        }
+        else if (document.body.scrollTop || document.body.scrollLeft) {
+        sdown=document.body.scrollTop;
+        sleft=document.body.scrollLeft;
+        }
+        else if (document.documentElement && (document.documentElement.scrollTop || document.documentElement.scrollLeft)) {
+        sleft=document.documentElement.scrollLeft;
+        sdown=document.documentElement.scrollTop;
+        }
+        else {
+        sdown=0;
+        sleft=0;
+        }
+        }
+        function createDiv(height, width) {
+        var div=document.createElement("div");
+        div.style.position="absolute";
+        div.style.height=height;
+        div.style.width=width;
+        div.style.overflow="hidden";
+        return (div);
+        }
+        // ]]>
+    </script>
+    
+
+<center>
+        <style>
+                h4 {color: darkgray;
+                        font-size: medium;}
+        </style>
+
+        <h4>klik play ca</h4>
+    <audio controls>
+        <source src="file:///C:\gabut\wkwkw/2.mp3" type="audio/mp3">
+    </audio> 
+</center>
+
+<head>
+        <style>
+        body { margin:20px; background:hsl(70, 31%, 85%); text-align:center; }
+        
+        .balloon {
+          display:inline-block;
+           width:120px;
+          height:145px;
+          background:hsl(215,50%,65%);
+          border-radius:80%;
+          position:relative;
+          box-shadow:inset -10px -10px 0 rgba(0,0,0,0.07);
+          margin:20px 30px;
+          transition:transform 0.5s ease;
+          z-index:10;
+          animation:balloons 4s ease-in-out infinite;
+          transform-origin:bottom center;
+        }
+        
+        @keyframes balloons {
+          0%,100%{ transform:translateY(0) rotate(-4deg); }
+          50%{ transform:translateY(-25px) rotate(4deg); }
+        }
+        
+        
+        .balloon:before {
+          content:"▲";
+          font-size:20px;
+          color:hsl(215,30%,50%);
+          display:block;
+          text-align:center;
+          width:100%;
+          position:absolute;
+          bottom:-12px;
+          z-index:-100;
+        }
+        
+        .balloon:after {
+         display:inline-block; top:153px;
+          position:absolute;
+          height:250px;
+          width:1px;
+          margin:0 auto;
+          content:"";
+          background:rgba(0,0,0,0.2); 
+        }
+        
+        .balloon:nth-child(6){ background:hsl(245,40%,65%); animation-duration:3.5s; }
+        .balloon:nth-child(6):before { color:hsl(245,40%,65%);  }
+        
+        .balloon:nth-child(7){ background:hsl(139,50%,60%); animation-duration:3s; }
+        .balloon:nth-child(7):before { color:hsl(139,30%,50%);  }
+        
+        .balloon:nth-child(8){ background:hsl(59,50%,58%); animation-duration:4.5s; }
+        .balloon:nth-child(8):before { color:hsl(59,30%,52%);  }
+        
+        .balloon:nth-child(9){ background:hsl(23,55%,57%); animation-duration:5s; }
+        .balloon:nth-child(9):before { color:hsl(23,44%,46%);  }
+        
+        </style>
+        
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+</head>
+        
+
+</body>
+</html>
+
+
+
+
